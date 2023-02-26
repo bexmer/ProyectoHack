@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="fondo">
+    <head>
+        
+        <title>OmniKey</title>  <!--Nombre que aparece en la ventana-->
+        <h1 class="Omni">OmniKey</h1>     <!--Titulo-->
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="confapp.html">App configuration</a>
+                <a href="confaccount.html">Account configuration</a>
+                <a href="/descargas/descargas.html">Download</a>
+            </div>
+        </div>
+        <!--Aqui va el logo-->
+        
+    </head>
+    <body>
+        <div id="timer" class="timer"></div>
+        <div>
+        <link rel="stylesheet" href="/Principal/paginaprincipal.html">
+        <script src="/Principal/paginaprincipal.js"></script>
+        <span id="countdown"></span>
+        <h1 class="text-center" id="count-down-timer"></h1>
+        <script type="text/javascript">
+        //Redireccionamiento tras n segundos
+       //document.getElementById("milisec").innerHTML="<h1>" +milisec+"</h1>";
+       
+        setTimeout( function() { window.location.href = "../login.html"; },1000000000 ); //Aqui hay que modificar el tiempo despues
+     </script>
+        </div>
+        <div id="1">
+            <!--Logo-->
+        </div>
+        <br><br><br>
+        <div id="2">
+            <h3 class="password">Passwords</h3>
+        </div>
+        <div id="3">
+            <form> <!--Botones para moverse a las paginas de cada tipo de contras-->
+                <a href="/Contralaboral/contralaboral.html" class="personal"><input type="button" value="Personal"></a>
+                <a href="/Contralaboral/contralaboral.html" class="laboral"><input type="button" value="Professional"></a>
+                <a href="/Contraentre/contraentre.html" class="entretenimiento"><input type="button" value="Entertainment"></a>
+            </form>
+        </div>
+        <div>
+            <br><br><br><br>
+            <form>
+                <a href="/index/index.html"><input type="button" value="Retrun"></a> <!--Boton provicionall-->
+            </form>
+        </div>
+        <div class="final"> <!--Parte inferior de la pagina, contacto-->
+            
+            <h4 class="contacto">Contact us</h4>
+            <a href="mailto:omnikey_@hotmail.com" target="_blank"><p class="correo">omnikey_@hotmail.com</p></a>
+            <p class="report">Claim reports and feedback</p>
+
+        </div>  
+
+    </body>
+</html>
